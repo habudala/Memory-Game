@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dragon Game ReDo</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- adding my css after the bootstrap reset -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1>Memory Game</h1>
+		<div id="button-bucket">
+			<input class="diff" id="easy" type="button" value="easy"/>
+			<input class="diff" id="med" type="button" value="med"/>
+			<input class="diff" id="hard" type="button" value="hard"/>
+		</div>
+
+		<div class="counter">Moves: <span id="move-counter">0</span></div>
+		<div class="counter">Wins: <span id="wins-counter">0</span></div>
+
+		<div id="mg-wrapper" class="mg-wrapper">
+			<div id="mg-contents" class="mgcontents">
+			</div>
+		</div>
+
+
+
+	<!-- addig Jquery before bootstrap js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- Adding my own script tag -->
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
